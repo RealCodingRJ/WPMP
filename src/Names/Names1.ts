@@ -1,8 +1,13 @@
 ﻿export interface Name1 {
 
-
     getRandomName(randName: string[]):void
 }
+
+export type Person = {
+    name: string,
+    age: number
+}
+
 
 export class MyNameFirst implements Name1 {
 
@@ -17,3 +22,4 @@ export class MyNameFirst implements Name1 {
 
 
 }
+
